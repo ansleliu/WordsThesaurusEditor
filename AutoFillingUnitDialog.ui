@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AutoFillingUnitDialog</class>
+ <widget class="QDialog" name="AutoFillingUnitDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>343</width>
+    <height>162</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>自动填写单元信息</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="rc.qrc">
+    <normaloff>:/new/prefix2/rc/action/Arrow3 Down.ico</normaloff>:/new/prefix2/rc/action/Arrow3 Down.ico</iconset>
+  </property>
+  <widget class="QGroupBox" name="SelectGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>321</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>请选择每个单元的单词数</string>
+   </property>
+   <widget class="QLabel" name="InInfoLabel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>每单元单词数：</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="WordNumSpinBox">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>30</y>
+      <width>191</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>50</number>
+    </property>
+    <property name="maximum">
+     <number>500</number>
+    </property>
+    <property name="singleStep">
+     <number>50</number>
+    </property>
+    <property name="value">
+     <number>200</number>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="InfoLabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>331</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>注意：系统将会自动以您指定的固定数目的单词作为一个单元</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="OKButton">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>130</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/new/prefix1/rc/action/Ok.ico</normaloff>:/new/prefix1/rc/action/Ok.ico</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="quiteButton">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>130</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/new/prefix1/rc/action/Cancel.ico</normaloff>:/new/prefix1/rc/action/Cancel.ico</iconset>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="rc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

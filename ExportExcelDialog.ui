@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ExportExcelDialog</class>
+ <widget class="QDialog" name="ExportExcelDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>331</width>
+    <height>120</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>导出为Excel文档</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="rc.qrc">
+    <normaloff>:/new/prefix2/rc/action/Go Out.ico</normaloff>:/new/prefix2/rc/action/Go Out.ico</iconset>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请输入要保存的文件的名字</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="FileNameLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>311</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="OKPushButton">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>80</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/new/prefix1/rc/action/Ok.ico</normaloff>:/new/prefix1/rc/action/Ok.ico</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="QuitPushButton">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>80</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/new/prefix1/rc/action/Cancel.ico</normaloff>:/new/prefix1/rc/action/Cancel.ico</iconset>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="rc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

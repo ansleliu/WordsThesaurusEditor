@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StandardDialog</class>
+ <widget class="QDialog" name="StandardDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>281</width>
+    <height>199</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>规范化词库</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="rc.qrc">
+    <normaloff>:/new/prefix1/rc/action/Tool.ico</normaloff>:/new/prefix1/rc/action/Tool.ico</iconset>
+  </property>
+  <widget class="QGroupBox" name="StandardGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>261</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>要规范化的项</string>
+   </property>
+   <widget class="QGroupBox" name="ReplaceGroupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>111</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>替换</string>
+    </property>
+    <widget class="QLineEdit" name="DerEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>r</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="DerLabel">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>80</y>
+       <width>54</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>--&gt; der</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="DasEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>s</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="DasLabel">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>50</y>
+       <width>54</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>--&gt; das</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="DieEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>e</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="DieLabel">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>20</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>--&gt; die</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="MoveGroupBox">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>20</y>
+      <width>111</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>移动</string>
+    </property>
+    <widget class="QLineEdit" name="AdjEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Adj.</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="AdvEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Adv.</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="VtEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>vt.</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="ViEdit">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>80</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>vi.</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="KonjEdit">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>50</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Konj.</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="PronEdit">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>20</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Pron.</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="AcceptButton">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>160</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/new/prefix1/rc/action/Ok.ico</normaloff>:/new/prefix1/rc/action/Ok.ico</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="QuitButton">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>160</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/new/prefix1/rc/action/Cancel.ico</normaloff>:/new/prefix1/rc/action/Cancel.ico</iconset>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="rc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

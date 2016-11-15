@@ -1,0 +1,63 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>rc/action/edit_clear.png</file>
+        <file>rc/action/qt-logo.png</file>
+        <file>rc/action/excel_alt_1.ico</file>
+        <file>rc/action/excel_alt_2.ico</file>
+        <file>rc/action/txt3.png</file>
+        <file>rc/action/txt4.png</file>
+        <file>rc/action/Standby.ico</file>
+        <file>rc/action/Table.ico</file>
+        <file>rc/action/Text Large.ico</file>
+        <file>rc/action/Document2.ico</file>
+        <file>rc/action/Dots.ico</file>
+        <file>rc/action/Wordpress.ico</file>
+        <file>rc/action/Application.ico</file>
+        <file>rc/action/Applications.ico</file>
+        <file>rc/action/Arrow1 Down.ico</file>
+        <file>rc/action/Arrow1 Up.ico</file>
+        <file>rc/action/Arrow2 Down.ico</file>
+        <file>rc/action/Arrow2 Up.ico</file>
+        <file>rc/action/Cancel.ico</file>
+        <file>rc/action/Exclamation.ico</file>
+        <file>rc/action/Folder.ico</file>
+        <file>rc/action/Folder2.ico</file>
+        <file>rc/action/Folder3.ico</file>
+        <file>rc/action/Full Screen.ico</file>
+        <file>rc/action/Full Size.ico</file>
+        <file>rc/action/Home.ico</file>
+        <file>rc/action/Info2.ico</file>
+        <file>rc/action/Key.ico</file>
+        <file>rc/action/Minus.ico</file>
+        <file>rc/action/Music.ico</file>
+        <file>rc/action/Music2.ico</file>
+        <file>rc/action/Ok.ico</file>
+        <file>rc/action/Plus.ico</file>
+        <file>rc/action/Tool2.ico</file>
+        <file>rc/action/Wait.ico</file>
+        <file>rc/action/Download.ico</file>
+        <file>rc/action/Tool.ico</file>
+        <file>rc/action/Document.ico</file>
+        <file>rc/action/Refresh.ico</file>
+        <file>rc/edit.ico</file>
+    </qresource>
+    <qresource prefix="/new/prefix2">
+        <file>rc/action/Arrow1 Left.ico</file>
+        <file>rc/action/Arrow1 Right.ico</file>
+        <file>rc/action/Arrow2 Left.ico</file>
+        <file>rc/action/Arrow2 Right.ico</file>
+        <file>rc/action/Database.ico</file>
+        <file>rc/action/Exclamation.ico</file>
+        <file>rc/action/Go In.ico</file>
+        <file>rc/action/Go Out.ico</file>
+        <file>rc/action/Save.ico</file>
+        <file>rc/action/Tag.ico</file>
+        <file>rc/deutschicon.png</file>
+        <file>rc/pic.ico</file>
+        <file>rc/pic.png</file>
+        <file>rc/action/Write.ico</file>
+        <file>rc/action/Arrow3 Down.ico</file>
+        <file>rc/action/Dots Down.ico</file>
+        <file>rc/action/Heart.ico</file>
+    </qresource>
+</RCC>

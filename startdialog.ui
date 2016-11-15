@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>startDialog</class>
+ <widget class="QDialog" name="startDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>392</width>
+    <height>191</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>392</width>
+    <height>191</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>392</width>
+    <height>191</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>欢迎使用</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="rc.qrc">
+    <normaloff>:/new/prefix1/rc/edit.ico</normaloff>:/new/prefix1/rc/edit.ico</iconset>
+  </property>
+  <widget class="QLineEdit" name="addlineEdit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>291</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="fileNamelineEdit">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>80</y>
+     <width>161</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tableNamelineEdit">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>110</y>
+     <width>161</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>WordsBook</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="acceptButton">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>150</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/new/prefix1/rc/action/Ok.ico</normaloff>:/new/prefix1/rc/action/Ok.ico</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="quitButton">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>150</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/new/prefix1/rc/action/Cancel.ico</normaloff>:/new/prefix1/rc/action/Cancel.ico</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="openButton">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>80</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>打开</string>
+   </property>
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/new/prefix1/rc/action/Folder3.ico</normaloff>:/new/prefix1/rc/action/Folder3.ico</iconset>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>41</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>文件名</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tableNamelabel">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>110</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>表  名</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="willkommenlabel">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>331</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>欢迎使用词库编辑器，请选择一个现有词库或者新建一个词库</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="openradioButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>30</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>打开现有词库</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="newradioButton">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>30</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>新建一个词库</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="saveButton">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>110</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>保存</string>
+   </property>
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/new/prefix2/rc/action/Save.ico</normaloff>:/new/prefix2/rc/action/Save.ico</iconset>
+   </property>
+  </widget>
+  <widget class="QLabel" name="germanlabel">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>50</y>
+     <width>151</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="rc.qrc">:/new/prefix2/rc/deutschicon.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>addlineEdit</zorder>
+  <zorder>fileNamelineEdit</zorder>
+  <zorder>tableNamelineEdit</zorder>
+  <zorder>acceptButton</zorder>
+  <zorder>quitButton</zorder>
+  <zorder>openButton</zorder>
+  <zorder>label</zorder>
+  <zorder>tableNamelabel</zorder>
+  <zorder>willkommenlabel</zorder>
+  <zorder>saveButton</zorder>
+  <zorder>germanlabel</zorder>
+  <zorder>newradioButton</zorder>
+  <zorder>openradioButton</zorder>
+ </widget>
+ <tabstops>
+  <tabstop>saveButton</tabstop>
+  <tabstop>openButton</tabstop>
+  <tabstop>quitButton</tabstop>
+  <tabstop>acceptButton</tabstop>
+  <tabstop>fileNamelineEdit</tabstop>
+  <tabstop>addlineEdit</tabstop>
+  <tabstop>tableNamelineEdit</tabstop>
+  <tabstop>newradioButton</tabstop>
+  <tabstop>openradioButton</tabstop>
+ </tabstops>
+ <resources>
+  <include location="rc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
